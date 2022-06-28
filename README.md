@@ -42,3 +42,14 @@ winget install SlackTechnologies.Slack
 3. Add this new sub-key: `InprocServer32`.
 4. Open the value `(Default)` and click on OK (without value data).
 4. Logoff / login your session.
+
+### Use Sounds when build failed
+
+1. Open the **Sound** dialog box running this command line: `control mmsys.cpl sounds`
+2. Go to the Sounds tab and collapse the Windows events in the list to display the **Microsoft Visual Studio** events.
+3. Set these sounds:
+    - Build failed: `Windows Critical Stop.wav`
+    - Build Succeeded: `Windows Exclamation.wav`
+    - Test Run failed: `Windows Critical Stop.wav`
+    - Test Run Succeeded: `Windows Exclamation.wav`
+    
