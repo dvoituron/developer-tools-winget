@@ -32,3 +32,12 @@ winget install 9WZDNCRDMDM3                  -- NuGet Package Explorer
 winget install 9NBHCS1LX4R0                  -- Paint.Net
 winget install SlackTechnologies.Slack
 ```
+
+## Configurations
+
+### Windows 11 Explorer - Classic Contextual Menu
+
+1. Open the Registry Editor and go to `Computer\HKEY_CURRENT_USER\SOFTWARE\CLASSES\CLSID\`.
+2. Add this new key:`{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}`.
+3. Add this new sub-key: `InprocServer32`.
+4. Logoff / login your session.
