@@ -22,4 +22,13 @@ winget install Microsoft.Edge.Dev
 winget install Notepad++.Notepad++
 winget install Microsoft.PowerToys
 winget install 7zip.7zip
+
+winget install Microsoft.AzureDataStudio
+winget install Elgato.StreamDeck
+winget install Git.Git
+winget install GitHub.GitHubDesktop
+winget install Microsoft.VisualStudioCode
+winget install 9WZDNCRDMDM3                  -- NuGet Package Explorer
+winget install 9NBHCS1LX4R0                  -- Paint.Net
+winget install SlackTechnologies.Slack
 ```
