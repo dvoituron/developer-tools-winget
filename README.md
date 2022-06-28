@@ -40,4 +40,5 @@ winget install SlackTechnologies.Slack
 1. Open the Registry Editor and go to `Computer\HKEY_CURRENT_USER\SOFTWARE\CLASSES\CLSID\`.
 2. Add this new key:`{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}`.
 3. Add this new sub-key: `InprocServer32`.
+4. Open the value `(Default)` and click on OK (without value data).
 4. Logoff / login your session.
