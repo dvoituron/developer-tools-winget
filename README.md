@@ -9,17 +9,17 @@ This article lists all tools installed on my machine, using [WinGet](https://git
      
   2. To authorize installations from the Microsoft Store, you must be logged in (with a personal email address).
   
-  3. Open a **Command Line** and run `winget` command to display the documentation.
+  3. Open a **Windows Terminal** and run `winget` command to display the documentation.
 
 ## Tools
 
-- [Facebook Messenger](https://www.messenger.com/)
+Run these lines one by one.
 
-  `winget install 9WZDNCRF0083`
-  
-- [DeepL](https://www.deepl.com/translator)
-
-  `winget install "DeepL.DeepL`
-  
-- [Microsoft Edge Dev](https://www.microsoftedgeinsider.com/en-us/download/dev)
-  `winget install Microsoft.Edge.Dev`
+```
+winget install 9WZDNCRF0083                -- Facebook Messenger
+winget install DeepL.DeepL
+winget install Microsoft.Edge.Dev
+winget install Notepad++.Notepad++
+winget install Microsoft.PowerToys
+winget install 7zip.7zip
+```
