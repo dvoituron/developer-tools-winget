@@ -11,7 +11,7 @@ This article lists all tools installed on my machine, using [WinGet](https://git
   
   3. Open a **Windows Terminal** and run `winget` command to display the documentation.
 
-## Tools
+## Windows Tools
 
 Run these lines one by one.
 
@@ -30,11 +30,11 @@ winget install Notepad++.Notepad++
 winget install OpenJS.NodeJS
 winget install SlackTechnologies.Slack
 winget install 9WZDNCRDMDM3                  -- NuGet Package Explorer
-winget install 9NBHCS1LX4R0                  -- Paint.Net
+winget install 9NBHCS1LX4R0                  -- Paint.Net (Paid)
 winget install 9WZDNCRF0083                  -- Facebook Messenger
 ```
 
-## Configurations
+## Windows Configurations
 
 ### Windows 11 Explorer - Classic Contextual Menu
 
@@ -54,3 +54,19 @@ winget install 9WZDNCRF0083                  -- Facebook Messenger
     - Test Run failed: `Windows Critical Stop.wav`
     - Test Run Succeeded: `Windows Exclamation.wav`
     
+## Visual Studio Extensions
+
+- [Output enhancer](https://github.com/MykolaBalakin/VSOutputEnhancer)
+- [Open Command Line](https://github.com/madskristensen/OpenCommandLine)
+- [File Differ](https://github.com/madskristensen/FileDiffer)
+- [Add Any File](https://github.com/madskristensen/AddAnyFile)
+
+## VSCode Extensions
+
+- [Visual Studio Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vs-keybindings)
+- [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+- [MongoDB for VSCode](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode)
+- [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
+- [Sql Server](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
+- [VSCode Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+- [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
