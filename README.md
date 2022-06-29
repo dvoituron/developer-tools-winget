@@ -16,21 +16,21 @@ This article lists all tools installed on my machine, using [WinGet](https://git
 Run these lines one by one.
 
 ```
-winget install 9WZDNCRF0083                -- Facebook Messenger
-winget install DeepL.DeepL
-winget install Microsoft.Edge.Dev
-winget install Notepad++.Notepad++
-winget install Microsoft.PowerToys
 winget install 7zip.7zip
-
-winget install Microsoft.AzureDataStudio
+winget install DeepL.DeepL
 winget install Elgato.StreamDeck
 winget install Git.Git
 winget install GitHub.GitHubDesktop
+winget install Microsoft.AzureDataStudio
+winget install Microsoft.Edge.Dev
+winget install Microsoft.PowerToys
 winget install Microsoft.VisualStudioCode
+winget install Notepad++.Notepad++
+winget install OpenJS.NodeJS
+winget install SlackTechnologies.Slack
 winget install 9WZDNCRDMDM3                  -- NuGet Package Explorer
 winget install 9NBHCS1LX4R0                  -- Paint.Net
-winget install SlackTechnologies.Slack
+winget install 9WZDNCRF0083                  -- Facebook Messenger
 ```
 
 ## Configurations
