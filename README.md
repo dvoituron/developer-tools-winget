@@ -21,6 +21,7 @@ winget install DeepL.DeepL
 winget install Elgato.StreamDeck
 winget install Git.Git
 winget install GitHub.GitHubDesktop
+winget install Microsoft.AzureCLI
 winget install Microsoft.AzureDataStudio
 winget install Microsoft.Edge.Dev
 winget install Microsoft.PowerToys
