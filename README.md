@@ -45,6 +45,10 @@ winget install 9WZDNCRF0083                  -- Facebook Messenger
 4. Open the value `(Default)` and click on OK (without value data).
 4. Logoff / login your session.
 
+> You can run this command
+> `reg.exe add "HKCU\Software\Classes\CLSID{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\InprocServer32" /f /ve`
+> And logoff / login your session.
+
 ### Use Sounds when build failed
 
 1. Open the **Sound** dialog box running this command line: `control mmsys.cpl sounds`
