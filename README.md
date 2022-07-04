@@ -112,7 +112,7 @@ To configure the Windows Terminal features, add or update these parameters in **
 }
 ```
 
-## SQL Server Local DB
+## 👉 SQL Server Local DB
 
 LocalDB is a feature you select during SQL Server Express installation, and is available when you download the media.
 
