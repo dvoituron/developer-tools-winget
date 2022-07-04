@@ -11,7 +11,7 @@ This article lists all tools installed on my machine, using [WinGet](https://git
   
   3. Open a **Windows Terminal** and run `winget` command to display the documentation.
 
-## Windows Tools
+## Windows and Developer Tools
 
 Run these lines one by one.
 
@@ -23,6 +23,7 @@ winget install Git.Git
 winget install GitHub.GitHubDesktop
 winget install Microsoft.AzureCLI
 winget install Microsoft.AzureDataStudio
+winget install Microsoft.DotNet.SDK.6
 winget install Microsoft.Edge.Dev
 winget install Microsoft.PowerToys
 winget install Microsoft.VisualStudioCode
@@ -99,3 +100,14 @@ To configure the Windows Terminal features, add or update these parameters in **
   "centerOnLaunch": true,  
 }
 ```
+
+## SQL Server Local DB
+
+LocalDB is a feature you select during SQL Server Express installation, and is available when you download the media.
+
+1. Start the setup [SQL Server Express](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb).
+2. Select **Download Media** and choose **LocalDB** (~55 MB).
+3. Start `SqlLocalDB.msi` file.
+4. Create an instance MyServer using this command: `SqlLocalDb i MyServer`.
+
+
