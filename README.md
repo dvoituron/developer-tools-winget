@@ -83,8 +83,11 @@ To configure the Windows Terminal with colorization of GIT, all details are [her
       - The **Font face** to **Caskaydia Nerd Font**
 3. Install Oh My Posh for PowerShell: `winget install JanDeDobbeleer.OhMyPosh`
 4. Choose and apply a PowerShell prompt theme
-   - Open you profile file: `notepad C:\Users\<USER_NAME>\Documents\WindowsPowerShell\profile.ps1`
+   - Open you profile file: 
+     `notepad C:\Users\<USER_NAME>\Documents\WindowsPowerShell\profile.ps1`
    - Add the following to the end of your PowerShell profile file to set the [paradox theme](https://ohmyposh.dev/docs/themes)
-     `oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\amro.omp.json" | Invoke-Expression`
+     `oh-my-posh --init --shell pwsh --config "C:\Users\<USER_NAME>\AppData\Local\Programs\oh-my-posh\themes\amro.omp.json" | Invoke-Expression`
    - Allow to execute this script
      `Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser`
+> If the starting time of a Powershell Session is very slow, you can add this file to your anti-virus exclusion list.
+> `C:\Users\<USER_NAME>\AppData\Local\Programs\oh-my-posh\bin\oh-my-posh.exe`
