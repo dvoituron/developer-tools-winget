@@ -91,3 +91,11 @@ To configure the Windows Terminal with colorization of GIT, all details are [her
      `Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser`
 > If the starting time of a Powershell Session is very slow, you can add this file to your anti-virus exclusion list.
 > `C:\Users\<USER_NAME>\AppData\Local\Programs\oh-my-posh\bin\oh-my-posh.exe`
+
+To configure the Windows Terminal features, add or update these parameters in **settings.json* file.
+```json
+{
+  "confirmCloseAllTabs": false,
+  "centerOnLaunch": true,  
+}
+```
