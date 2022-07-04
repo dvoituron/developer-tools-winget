@@ -2,7 +2,7 @@
 
 This article lists all tools installed on my machine, using [WinGet](https://github.com/microsoft/winget-cli) to simplify the installation.
 
-## Prerequisites
+## 👉 Prerequisites
 
   1. To install or update WinGet, go to the **Microsoft Store** 
      and install or update the [App Installer](https://www.microsoft.com/store/productId/9NBLGGH4NNS1).
@@ -11,7 +11,7 @@ This article lists all tools installed on my machine, using [WinGet](https://git
   
   3. Open a **Windows Terminal** and run `winget` command to display the documentation.
 
-## Windows and Developer Tools
+## 👉 Windows and Developer Tools
 
 Run these lines one by one.
 
@@ -36,7 +36,7 @@ winget install 9NBHCS1LX4R0                  -- Paint.Net (Paid)
 winget install 9WZDNCRF0083                  -- Facebook Messenger
 ```
 
-## Windows Configurations
+## 👉 Windows Configurations
 
 ### Windows 11 Explorer - Classic Contextual Menu
 
@@ -66,14 +66,14 @@ winget install 9WZDNCRF0083                  -- Facebook Messenger
     - Test Run failed: `Windows Critical Stop.wav`
     - Test Run Succeeded: `Windows Exclamation.wav`
     
-## Visual Studio Extensions
+## 👉 Visual Studio Extensions
 
 - [Output enhancer](https://github.com/MykolaBalakin/VSOutputEnhancer)
 - [Open Command Line](https://github.com/madskristensen/OpenCommandLine)
 - [File Differ](https://github.com/madskristensen/FileDiffer)
 - [Add Any File](https://github.com/madskristensen/AddAnyFile)
 
-## VSCode Extensions
+## 👉 VSCode Extensions
 
 - [Visual Studio Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vs-keybindings)
 - [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
@@ -83,7 +83,7 @@ winget install 9WZDNCRF0083                  -- Facebook Messenger
 - [VSCode Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 - [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
 
-## Windows Terminal - GIT colorized
+## 👉 Windows Terminal - GIT colorized
 
 To configure the Windows Terminal with colorization of GIT, all details are [here](https://docs.microsoft.com/windows/terminal/tutorials/custom-prompt-setup).
 
