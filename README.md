@@ -23,6 +23,7 @@ winget install Git.Git
 winget install GitHub.GitHubDesktop
 winget install Microsoft.AzureCLI
 winget install Microsoft.AzureDataStudio
+winget install Microsoft.dotNetFramework
 winget install Microsoft.DotNet.SDK.6
 winget install Microsoft.Edge.Dev
 winget install Microsoft.PowerToys
@@ -115,9 +116,10 @@ To configure the Windows Terminal features, add or update these parameters in **
 
 LocalDB is a feature you select during SQL Server Express installation, and is available when you download the media.
 
+0. Check if you installed .NET Framework 4.8: `winget install Microsoft.dotNetFramework`.
 1. Start the setup [SQL Server Express](https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb).
 2. Select **Download Media** and choose **LocalDB** (~55 MB).
 3. Start `SqlLocalDB.msi` file.
-4. Create an instance MyServer using this command: `SqlLocalDb i MyServer`.
-
+4. Create an instance MyServer using this command: `SqlLocalDb create MyServer`.
+5. Open VSCode and the **SQL Server (mssql)**.
 
