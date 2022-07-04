@@ -70,3 +70,21 @@ winget install 9WZDNCRF0083                  -- Facebook Messenger
 - [Sql Server](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
 - [VSCode Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 - [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
+
+## Windows Terminal - GIT colorized
+
+To configure the Windows Terminal with colorization of GIT, all details are [here](https://docs.microsoft.com/windows/terminal/tutorials/custom-prompt-setup).
+
+1. Install a Nerd Font
+   - Download the [Caskaydia Cove Nerd Font](https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/CascadiaCode.zip).
+     Extract the ZIP file and install the fonts (right-click / install).
+   - Open **the Windows Terminal**, go to the Settings / Windows Powershell profile and set
+      - The **Starting directory** to **Use parent process directory**
+      - The **Font face** to **Caskaydia Nerd Font**
+3. Install Oh My Posh for PowerShell: `winget install JanDeDobbeleer.OhMyPosh`
+4. Choose and apply a PowerShell prompt theme
+   - Open you profile file: `notepad C:\Users\<USER_NAME>\Documents\WindowsPowerShell\profile.ps1`
+   - Add the following to the end of your PowerShell profile file to set the [paradox theme](https://ohmyposh.dev/docs/themes)
+     `oh-my-posh init pwsh --config "$env:POSH_THEMES_PATH\amro.omp.json" | Invoke-Expression`
+   - Allow to execute this script
+     `Set-ExecutionPolicy -ExecutionPolicy Unrestricted -Scope CurrentUser`
