@@ -82,6 +82,15 @@ winget install 9WZDNCRF0083                  -- Facebook Messenger
 - [Sql Server](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
 - [VSCode Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 - [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
+- **JetBrains Mono Font** 
+   1. Download the [font](https://www.jetbrains.com/lp/mono/).
+   2. Extract the ZIP file, and install the Font Files (right-click + Install).
+   3. Set Jetbrain Mono Font in Visual Studio Code:
+      ```json
+      "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
+      "editor.fontLigatures": true,
+      "editor.fontWeight": "bold"
+      ```
 
 ## 👉 Windows Terminal - GIT colorized
 
