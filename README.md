@@ -72,7 +72,7 @@ winget install 9WZDNCRF0083                  -- Facebook Messenger
 - [Open Command Line](https://github.com/madskristensen/OpenCommandLine)
 - [File Differ](https://github.com/madskristensen/FileDiffer)
 - [Add Any File](https://github.com/madskristensen/AddAnyFile)
-- Download the [JetBrains Mono font](https://www.jetbrains.com/lp/mono/), install TTF files (right-click + Install) and, in Visual Studio, open Tools / Options / Fonts and Colors and select **Jetbrains Mono Medium** in the font list.
+- Download the [Cascadia Code font](https://github.com/microsoft/cascadia-code), install TTF files (right-click + Install) and, in Visual Studio, open Tools / Options / Fonts and Colors and select **Cascadia Code** in the font list.
 
 ## 👉 VSCode Extensions
 
@@ -83,14 +83,10 @@ winget install 9WZDNCRF0083                  -- Facebook Messenger
 - [Sql Server](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
 - [VSCode Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
 - [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
-- **JetBrains Mono Font** 
-   1. Download the [font](https://www.jetbrains.com/lp/mono/).
-   2. Extract the ZIP file, and install the TTF Files (right-click + Install).
-   3. Set Jetbrain Mono Font in Visual Studio Code:
+- Download the [Cascadia Code font](https://github.com/microsoft/cascadia-code), install TTF files (right-click + Install) and, in VSCode, set these parameters.
       ```json
-      "editor.fontFamily": "'JetBrains Mono', Consolas, 'Courier New', monospace",
-      "editor.fontLigatures": true,
-      "editor.fontWeight": "bold"
+      "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
+      "editor.fontLigatures": true
       ```
 
 ## 👉 Windows Terminal - GIT colorized
