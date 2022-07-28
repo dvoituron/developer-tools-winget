@@ -24,6 +24,8 @@ winget install GitHub.GitHubDesktop
 winget install Microsoft.AzureCLI
 winget install Microsoft.AzureDataStudio
 winget install Microsoft.dotNetFramework
+winget install Microsoft.DotNet.SDK.3_1
+winget install Microsoft.DotNet.SDK.5
 winget install Microsoft.DotNet.SDK.6
 winget install Microsoft.Edge.Dev
 winget install Microsoft.PowerToys
