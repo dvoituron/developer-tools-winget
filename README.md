@@ -74,6 +74,7 @@ winget install 9WZDNCRF0083                  -- Facebook Messenger
 - [Open Command Line](https://github.com/madskristensen/OpenCommandLine)
 - [File Differ](https://github.com/madskristensen/FileDiffer)
 - [Add Any File](https://github.com/madskristensen/AddAnyFile)
+- [Rainbow Braces](https://github.com/madskristensen/RainbowBraces)
 - Download the [Cascadia Code font](https://github.com/microsoft/cascadia-code), install TTF files (right-click + Install) and, in Visual Studio, open Tools / Options / Fonts and Colors and select **Cascadia Code** in the font list.
 
 ## 👉 VSCode Extensions
