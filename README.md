@@ -31,7 +31,7 @@ winget install Microsoft.Edge.Dev
 winget install Microsoft.PowerToys
 winget install Microsoft.VisualStudioCode
 winget install Notepad++.Notepad++
-winget install OpenJS.NodeJS
+winget install OpenJS.NodeJS.LTS
 winget install SlackTechnologies.Slack
 winget install 9WZDNCRDMDM3                  -- NuGet Package Explorer
 winget install 9NBHCS1LX4R0                  -- Paint.Net (Paid)
