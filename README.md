@@ -27,6 +27,7 @@ winget install Microsoft.dotNetFramework
 winget install Microsoft.DotNet.SDK.3_1
 winget install Microsoft.DotNet.SDK.5
 winget install Microsoft.DotNet.SDK.6
+winget install Microsoft.DotNet.SDK.7
 winget install Microsoft.Edge.Dev
 winget install Microsoft.PowerToys
 winget install Microsoft.VisualStudioCode
