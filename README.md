@@ -74,19 +74,19 @@ winget install 9WZDNCRF0083                  -- Facebook Messenger
 - [Output enhancer](https://github.com/MykolaBalakin/VSOutputEnhancer)
 - [Open Command Line](https://github.com/madskristensen/OpenCommandLine)
 - [File Differ](https://github.com/madskristensen/FileDiffer)
-- [Add Any File](https://github.com/madskristensen/AddAnyFile)
-- [Rainbow Braces](https://github.com/madskristensen/RainbowBraces)
+- [Rest Client](https://github.com/madskristensen/RestClientVS)
 - Download the [Cascadia Code font](https://github.com/microsoft/cascadia-code), install TTF files (right-click + Install) and, in Visual Studio, open Tools / Options / Fonts and Colors and select **Cascadia Code** in the font list.
 
 ## 👉 VSCode Extensions
 
 - [Visual Studio Keymap](https://marketplace.visualstudio.com/items?itemName=ms-vscode.vs-keybindings)
-- [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
-- [MongoDB for VSCode](https://marketplace.visualstudio.com/items?itemName=mongodb.mongodb-vscode)
-- [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
-- [Sql Server](https://marketplace.visualstudio.com/items?itemName=ms-mssql.mssql)
 - [VSCode Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+- [Peacock](https://marketplace.visualstudio.com/items?itemName=johnpapa.vscode-peacock)
+- [C#](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csharp)
+- [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client)
 - [XML Tools](https://marketplace.visualstudio.com/items?itemName=DotJoshJohnson.xml)
+- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+- [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
 - Download the [Cascadia Code font](https://github.com/microsoft/cascadia-code), install TTF files (right-click + Install) and, in VSCode, set these parameters.
       ```json
       "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
@@ -118,7 +118,7 @@ To configure the Windows Terminal features, add or update these parameters in **
 ```json
 {
   "confirmCloseAllTabs": false,
-  "centerOnLaunch": true,  
+  "centerOnLaunch": true,
 }
 ```
 
@@ -131,5 +131,5 @@ LocalDB is a feature you select during SQL Server Express installation, and is a
 2. Select **Download Media** and choose **LocalDB** (~55 MB).
 3. Start `SqlLocalDB.msi` file.
 4. Create an instance MyServer using this command: `SqlLocalDb create MyServer`.
-5. Open VSCode and the **SQL Server (mssql)**.
-
+5. Download and install [Azure Data Studio](https://learn.microsoft.com/sql/azure-data-studio/download-azure-data-studio),
+   using this connection string: `(localdb)\MyServer`
