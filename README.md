@@ -92,7 +92,9 @@ winget install 9WZDNCRF0083                  -- Facebook Messenger
       "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
       "editor.fontLigatures": true
       ```
-if you don't have an contextual menu, in Windows Explorer, to open a folder in VS Code, save this content in a .reg file and run it.
+
+
+If you don't have a context menu, in Windows Explorer, to open a folder in VS Code, save this content in a .reg file and run it.
 ```
 Windows Registry Editor Version 5.00
 
