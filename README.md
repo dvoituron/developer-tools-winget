@@ -92,6 +92,22 @@ winget install 9WZDNCRF0083                  -- Facebook Messenger
       "editor.fontFamily": "'Cascadia Code', Consolas, 'Courier New', monospace",
       "editor.fontLigatures": true
       ```
+if you don't have an contextual menu, in Windows Explorer, to open a folder in VS Code, save this content in a .reg file and run it.
+```
+Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Directory\shell\VSCode]
+@="Open with VSCode"
+"Icon"="\"%LocalAppData%\\Programs\\Microsoft VS Code\\Code.exe\""
+
+[HKEY_CLASSES_ROOT\Directory\shell\VSCode\command]
+@=hex(2):22,00,25,00,4c,00,6f,00,63,00,61,00,6c,00,41,00,70,00,70,00,44,00,61,\
+  00,74,00,61,00,25,00,5c,00,50,00,72,00,6f,00,67,00,72,00,61,00,6d,00,73,00,\
+  5c,00,4d,00,69,00,63,00,72,00,6f,00,73,00,6f,00,66,00,74,00,20,00,56,00,53,\
+  00,20,00,43,00,6f,00,64,00,65,00,5c,00,43,00,6f,00,64,00,65,00,2e,00,65,00,\
+  78,00,65,00,22,00,20,00,22,00,25,00,56,00,22,00,00,00
+```
+
 
 ## 👉 Windows Terminal - GIT colorized
 
