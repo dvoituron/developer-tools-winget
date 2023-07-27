@@ -73,6 +73,7 @@ winget install 9WZDNCRF0083                  -- Facebook Messenger
 
 - [Output enhancer](https://github.com/MykolaBalakin/VSOutputEnhancer)
 - [Open Command Line](https://github.com/madskristensen/OpenCommandLine)
+   Command: `wt` and Command arguments: `/d %folder%`
 - [File Differ](https://github.com/madskristensen/FileDiffer)
   Obsolete since [VS2022.17.7 Preview 2](https://learn.microsoft.com/en-us/visualstudio/releases/2022/release-notes-preview#1770-pre20--visual-studio-2022-version-177-preview-2)
 - [Rest Client](https://github.com/madskristensen/RestClientVS)
